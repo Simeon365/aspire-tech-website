@@ -1,0 +1,53 @@
+/* .hero__container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10%;
+    position: relative;
+    top: 200px;
+} */
+.text{
+    width: 40%;
+    position: relative;
+    top: 180px;
+    left: 150px;
+}
+.image{
+    width: 15%;
+    /* border-radius: 2rem; */
+    /* display: grid; */
+    /* place-items: center; */
+    position: relative;
+    top: 278px;
+    left: 997px;
+    
+}
+h5{
+    position: relative;
+    left: 650px;
+    bottom: 150px;
+}
+h2:before{
+    content: "";
+    display: block;
+    width: 160px;
+    height: 3px;
+    background: var(--color-primary);
+    position: absolute;
+    left: 0;
+    top: 13.9%;
+    z-index: -2;
+}
+a{
+    color: var(--color-primary);
+}
+/* h2:after{
+    content: "";
+    display: block;
+    width: 740px;
+    height: 3px;
+    background: hotpink;
+    position: absolute;
+    right: 0;
+    top: 14.4%;
+    z-index: -2;
+} */
