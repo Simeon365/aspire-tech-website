@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+    --color-bg: #121212;
+    --color-bg-variant: #000000;
+    --color-primary: #22b573;
+    --color-white: #fff;
+    
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Poppins", "sans-serif";
+    background: var(--color-bg);
+    background-image: url(../src/assets/pexels-martin-lopez-2225618.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-white);
+    line-height: 1.7;
+}
+
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 500;
+}
+h2{
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+section{
+    margin-top: 8rem;
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
