@@ -1,53 +1,83 @@
-/* .hero__container{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 10%;
-    position: relative;
-    top: 200px;
-} */
-.text{
-    width: 40%;
-    position: relative;
-    top: 180px;
-    left: 150px;
+/* Top Section */
+
+.top-bar {
+    display: flex;
+    margin: auto;
+    padding-top: 1rem;
+    justify-content: space-between;
+
 }
-.image{
-    width: 15%;
-    /* border-radius: 2rem; */
-    /* display: grid; */
-    /* place-items: center; */
-    position: relative;
-    top: 278px;
-    left: 997px;
-    
+
+.image {
+
+    max-width: 23%;
+    height: auto;
+    width: auto;
+    margin-left: 5rem;
 }
-h5{
-    position: relative;
-    left: 650px;
-    bottom: 150px;
+
+.text {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 1rem;
+    letter-spacing: 1px;
+    font-size: 1.1vw;
+
 }
-h2:before{
-    content: "";
-    display: block;
-    width: 160px;
-    height: 3px;
-    background: var(--color-primary);
-    position: absolute;
-    left: 0;
-    top: 13.9%;
-    z-index: -2;
-}
-a{
+
+a {
     color: var(--color-primary);
+    padding-left: 5px;
 }
-/* h2:after{
-    content: "";
-    display: block;
-    width: 740px;
-    height: 3px;
-    background: hotpink;
-    position: absolute;
-    right: 0;
-    top: 14.4%;
-    z-index: -2;
-} */
+
+/* Middle Section */
+
+.mid-bar {
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: auto;
+    line-height: 1.1;
+    /* border: 3px solid  var(--color-primary); */
+
+
+}
+
+.mid-info {
+    margin-top: 3rem;
+    /* border: 3px solid  var(--color-primary); */
+
+}
+
+/* Timer CSS */
+.timer {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    font-size: 1vw;
+    /* border: 3px solid  var(--color-primary); */
+
+}
+
+.time {
+    font-size: 1vw;
+    overflow: hidden;
+    margin: 9px;
+    padding: 4px;
+    width: 10%;
+    border: 3px solid var(--color-primary);
+    border-radius: 10px;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: auto;
+    text-align: center;
+    border: 3px solid var(--color-primary);
+    border-radius: 10px;
+    width: 70%
+}
